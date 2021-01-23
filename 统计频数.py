@@ -2,7 +2,7 @@ import jieba
 import xlwt
 import xlrd_compdoc_commented
 from collections import Counter
-filepath='C:/Users/文/Desktop/微博积极评论.txt'
+filepath='要用的文档.txt'
 
 with open(filepath,encoding='utf-8') as f:
     workbook = xlwt.Workbook(encoding='utf-8')
