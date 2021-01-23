@@ -48,9 +48,3 @@ for i1 in range(0,499):
         worksheet1.write(j, 1, -NumJ[i1])
         j = j + 1
 workbook.save("积极消极词汇排名.xls")
-print("积极",Jiji)
-print('num',NumJ1)
-print(NumJ)
-print('消极',Xiaoji)
-print(NumX)
-print(NumX1)
