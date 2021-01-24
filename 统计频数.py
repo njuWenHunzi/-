@@ -17,5 +17,5 @@ with open(filepath,encoding='utf-8') as f:
         e2=s.split("'")[2].strip(")").strip(",")
         worksheet.write(i, 0, e1)
         worksheet.write(i, 1, e2)
-    workbook.save('微博积极.xls')
+    workbook.save('存入的表.xls')
 
